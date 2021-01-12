@@ -1,0 +1,118 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 30px;
+	font-family: -webkit-pictograph;
+}
+
+p{
+	width: 90%;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: cursive;
+	font-size: 14px;
+	text-align: justify;
+}
+/* Simple Responsive Framework*/
+.row{
+	width: 100%;
+}
+
+/* Large devices only*/
+@media(min-width: 992px ) { 
+	.col-lg-1, .col-lg-2, .col-lg-3 {
+		float: left;
+		border: 1px solid black;
+		margin-left: 20px;
+	}
+	.col-lg-1 {
+		width: 25%;
+	}
+	.col-lg-2 {
+		width: 25%;
+	}
+	.col-lg-3 {
+		width: 25%
+	}
+
+
+ }
+
+ /*medium devices only*/
+ @media (min-width: 768px) and (max-width: 992px) {
+ 	.col-md-1, .col-md-2, .col-md-3 {
+ 		float: left;
+ 		border: 1px solid black;
+ 		margin-left: 20px;
+ 	}
+ 	.col-md-1 {
+ 		width: 45%
+ 	}
+ 	.col-md-2 {
+ 		width: 45%
+ 	}
+ 	.col-md-3 {
+ 		width: 100%
+ 	}
+ }
+
+ /*Small device only*/
+ @media (max-width: 767px) {
+ 	.col-sm-1, .col-sm-2, .col-sm-3 {
+ 		border: 1px solid black;
+ 		margin-left: 20px
+ 		width: 100%
+ 	}
+ }
+
+#h2{
+	position: sticky;
+	bottom: 12px;
+	left: 340px;
+	border: 1px solid black;
+	background-color: teal;
+	width: 170px;
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+#h3{
+	font-size: 25px;
+	border: 1px solid black;
+	background-color: magenta;
+	width: 170px;
+	text-align: center;
+	position:sticky;
+	left: 3400px;
+	bottom: 1px;
+	font-family: sans-serif;
+}
+#h4{
+	position: sticky;
+	left: 3400px;
+	border: 1px solid black;
+	background-color: cyan;
+	width: 170px;
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+.section1 {
+	 background-color: cyan;
+	 margin-bottom: 20px;
+}
+
+.section2 {
+	 background-color: teal;	
+	 margin-bottom: 20px;
+}
+
+.section3 {
+	 background-color: magenta;
+}
